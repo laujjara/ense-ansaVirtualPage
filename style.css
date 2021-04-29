@@ -1,0 +1,235 @@
+::-moz-selection {
+  background: #808080;
+  color: #E6E6E6;
+}
+
+::selection {
+  background: #808080;
+  color: #E6E6E6;
+}
+
+body {
+  font-family: 'PT Serif', serif;
+  background-color: #f9f7f1;
+  color: #404040;
+  padding: 20px;
+}
+
+blockquote {
+  font-family: 'Oswald', sans-serif;
+  line-height: 1.2em;
+  font-size: 1.8em;
+  -moz-column-span: 2;
+       column-span: 2;
+  -webkit-column-span: 2;
+  margin: 0px;
+  padding: 0px;
+  margin-left: 5px;
+}
+
+h1 {
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+  font-size: 4em;
+  line-height: 1em;
+  text-align: center;
+  font-weight: 700;
+  padding: 0px;
+  margin: 0px;
+  margin-bottom: 32px;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'PT Sans Narrow', sans-serif;
+}
+
+h2 {
+  font-size: 3em;
+  line-height: 1em;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+h3 {
+  font-size: 2.4em;
+  margin: 0px;
+  padding: 0px;
+  line-height: 0.8em;
+  padding-top: 20px;
+}
+
+.time {
+  text-align: center;
+  font-family: 'PT Sans Narrow', sans-serif;
+  border-top: 3px solid #333;
+  border-bottom: 3px solid #333;
+  font-size: 1.6em;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  margin-bottom: 30px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.lineas{
+  color: black; 
+  background-color: black; 
+  width:100%; 
+  height: 4px;
+}
+
+.centro {
+  text-align: center;
+}
+.audio{
+  text-align:center;
+}
+.embed-container {
+  position: relative; 
+  padding-bottom: 80%; 
+  height: 0; 
+  max-width: 100%;} 
+  
+.embed-container iframe, 
+.embed-container object, 
+.embed-container iframe{
+  position: absolute; 
+  top: 0; 
+  left: 10%; 
+  width: 80%; 
+  height: 80%;} 
+  small{
+    position: absolute; 
+    z-index: 40; 
+    bottom: 0; 
+    margin-bottom: -15px;}
+
+*{box-sizing:border-box;}
+
+		.container{
+			width:95%;
+			max-width:900px;
+			padding:32px 64px;
+			margin:auto;
+		}
+
+		.social{
+			/*las imágenes usadas tienen width de 48px*/
+			width:48px;
+			position:fixed;
+			top:50px;
+			right:0;
+		}
+
+		/* Extra centrado vertical*/
+
+		.social{
+			/*border:1px solid #000;*/
+			top:50%;
+			height:205px;
+			/*para poner height 192 deberíamos haber indicado en el reset de estilos font-size:0;*/
+			margin-top:-100px;
+		}
+
+    #columnas{
+      column-count:2;
+      column-gap:40px;
+      column-rule:2px solid rgb(0, 0, 0);
+   }
+
+   /*Aqui va lo de la tabla*/
+
+  .tg  {
+    text-align:center;
+    border-collapse:collapse;
+    border-spacing:0;}
+
+  .tg td{
+    text-align:center;
+    border-color:black;
+    border-style:solid;
+    border-width:1px;
+    font-family: 'PT Serif', serif;
+    font-size:14px;
+    overflow:hidden;
+    padding:10px 5px;
+    word-break:normal;}
+
+  .tg th{
+    text-align:center;
+    border-color:black;
+    border-style:solid;
+    border-width:1px;
+    font-family: 'PT Serif', serif;
+    font-size:14px;
+    font-weight:normal;
+    overflow:hidden;
+    padding:10px 5px;word-break:normal;}
+  }
+  .tg .tg-baqh{
+    text-align:center;
+    vertical-align:top}
+
+    /* barra de navegación */
+
+   /* Add a black background color to the top navigation */
+.topnav {
+  background-color: #f9f7f1;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: black;
+  color: white;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #cae6dc;
+  color: black;
+}
+
+@media only all and (min-width: 600px) {
+  article {
+    -moz-columns: 3;
+         columns: 3;
+    -moz-column-gap: 40px;
+         column-gap: 40px;
+    line-height: 1.5em;
+    font-size: 1em;
+    -moz-column-rule: 2px outset #444;
+         column-rule: 2px outset #444;
+  }
+  h1 {
+    font-size: 7em;
+    -moz-column-span: all;
+         column-span: all;
+  }
+  .time {
+    -moz-column-span: all;
+         column-span: all;
+  }
+  p {
+    text-align: justify;
+    text-justify: inter-word;
+    -webkit-hyphens: auto;
+        -ms-hyphens: auto;
+            hyphens: auto;
+    hyphenate-character: "\u2605";
+  }
+}
